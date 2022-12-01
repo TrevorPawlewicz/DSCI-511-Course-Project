@@ -30,7 +30,8 @@ We would like to give developers a dataset to create phrases to help write a pop
 
 ---
 #### Source of Data:
-![Musixmatch logo](images/Monogram_Primary.png =100x100)
+Musixmatch ![Musixmatch logo](images/Monogram_Primary.png "Musixmatch")
+Genius ![Genius logo](images/Genius.png "Genius")
 
 ---
 #### Building the Dataset:
