@@ -72,7 +72,7 @@ Genius ![Genius logo](images/Genius.png "Genius")
 > - Access to ONLY 30% of lyrics per song
 > - Understanding which part of the song (beginning, > middle, end) contains the lyrics that are needed to be > best analyzed for our dataset.
 >
-> Genius.com was web scrapped to get full lyrical content > of songs as a solution to only having access to the > __musixmatch__ free 30% of lyrics per song.
+> Genius.com was web scrapped to get full lyrical content > of songs as a solution to only having access to the __musixmatch__ free 30% of lyrics per song.
 >
 
 ---
