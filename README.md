@@ -65,7 +65,7 @@ Genius ![Genius logo](images/Genius.png "Genius")
 
 ---
 #### Issues and Limitations:
-> #####_Musixmatch_:
+> ##### _Musixmatch_:
 > - Free
 > - Limited to 2k API Calls daily
 > - Free testing plan for evaluation only
