@@ -36,13 +36,12 @@ Genius ![Genius logo](images/Genius.png "Genius")
 ---
 #### Building the Dataset:
 > 1. Register for an API key (musixmatch)
-> 2. Setup Imports and API Authentication (musixmatch)
-> 3. Retrieve song list from URL with parameters for a data query (genius)
-> 4. Scrape Lyric Data with Beautiful Soup (genius)
-> 5. Collect and Merge Data
-> 6. Process Data
-> 7. Remove Stop Words
-> 8. Output the Dataset
+> 2. Retrieve song list and genre metadata from API (musixmatch)
+> 3. Scrape Lyric Data with Beautiful Soup (genius)
+> 4. Collect and Merge Data
+> 5. Process Data
+> 6. Remove Stop Words
+> 7. Output the Dataset
 
 ---
 #### Preprocessing Our Data:
@@ -57,23 +56,28 @@ Genius ![Genius logo](images/Genius.png "Genius")
 
 ---
 #### Distribution Approach:
-> ...TBD...
+> JSON file hosted on GitHub, here in this repo:
+> `FinalProject/data/word_count_by_genre.json`
+> `FinalProject/data/word_count_by_genre_stop.json`
 
 ---
 #### Discussion of Access Rights:
-> ...TBD...
+> - No Access rights (Output dataset as JSON file hosted in a Public GitHub Repository.)
+> - Open to public consumption
+> - We are not Publishing entire lyrical data.
+> - Word counts vs. Copyrighted Lyrics
 
 ---
 #### Issues and Limitations:
 > ##### _Musixmatch_:
-> - Free
 > - Limited to 2k API Calls daily
 > - Free testing plan for evaluation only
 > - Access to ONLY 30% of lyrics per song
 > - Understanding which part of the song (beginning, middle, end) contains the lyrics that are needed to be best analyzed for our dataset.
 >
 > Genius.com was web scrapped to get full lyrical content of songs as a solution to only having access to the __musixmatch__ free 30% of lyrics per song.
->
+> - Web scrapping decreased our dataset collecting performance.
+
 
 ---
 
